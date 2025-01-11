@@ -1,5 +1,8 @@
-import { administrationRoutes } from "@/modules/administration";
 import { ErrorPage, NotFound, PrivateLayout } from "@/components/common";
+
+// Modules routes
+import { authRoutes } from "@/modules/auth";
+import { administrationRoutes } from "@/modules/administration";
 
 export function combinedRoutes() {
   return [
@@ -7,7 +10,7 @@ export function combinedRoutes() {
       path: "/",
       errorElement: <ErrorPage />,
       element: <PrivateLayout />,
-      children: [...administrationRoutes],
+      children: [...administrationRoutes, ...authRoutes],
     },
     {
       path: "*",

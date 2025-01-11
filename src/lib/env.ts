@@ -1,3 +1,4 @@
 export const env = {
-  API_URL: import.meta.env.VITE_API_URL as string,
+  PROJECT_ID: import.meta.env.VITE_PROJECT_ID as string,
+  ENDPOINT: import.meta.env.VITE_ENDPOINT as string,
 };

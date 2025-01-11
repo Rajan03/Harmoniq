@@ -8,8 +8,10 @@
     "module": "ESNext",
     "skipLibCheck": true,
     /* Bundler mode */
-    "moduleResolution": "node", // Changed to "node"
-    "types": ["node", "vite/client"], // Added vite/client for Vite types
+    "moduleResolution": "node",
+    // Changed to "node"
+    "types": ["node", "vite/client"],
+    // Added vite/client for Vite types
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
@@ -20,7 +22,8 @@
     "paths": {
       "@/*": ["src/*"],
       "@/ui/*": ["./src/components/ui/*"],
-      "@/administration/*": ["./src/modules/administration/*"]
+      "@/administration/*": ["./src/modules/administration/*"],
+      "@/auth/*": ["./src/modules/auth/*"]
     },
     /* Linting */
     "strict": true,
