@@ -1,178 +1,117 @@
-import { useState } from "react";
-import { ResultsInfo, Pagination } from "./pagination";
-import { EmptyState, LoadingState } from "./states-handler";
-import EditIcon from "../../assets/icons/edit.png";
-import DeleteIcon from "../../assets/icons/deleteIcon.gif";
+import * as React from "react"
 
-interface TableHeaderProps {
-  columns: {
-    key: string;
-    label: string;
-  }[];
-}
+import { cn } from "@/lib/utils"
 
-export function TableHeader({ columns }: TableHeaderProps) {
-  return (
-    <thead className="text-xs text-white bg-[#313146] h-5">
-      <tr>
-        {columns.map((column) => (
-          <th
-            key={column.key}
-            scope="col"
-            className="p-2 [&:not(:last-child)]:border-r border-[#ddd]  font-normal"
-          >
-            {column.label}
-          </th>
-        ))}
-      </tr>
-    </thead>
-  );
-}
+const Table = React.forwardRef<
+  HTMLTableElement,
+  React.HTMLAttributes<HTMLTableElement>
+>(({ className, ...props }, ref) => (
+  <div className="relative w-full overflow-auto">
+    <table
+      ref={ref}
+      className={cn("w-full caption-bottom text-sm", className)}
+      {...props}
+    />
+  </div>
+))
+Table.displayName = "Table"
 
-interface TableBodyProps<Row> {
-  data: Row[];
-  columns: {
-    key: string;
-    render?: (_item: Row) => React.ReactNode;
-  }[];
-  onRowClick?: (_item: Row) => void;
-}
+const TableHeader = React.forwardRef<
+  HTMLTableSectionElement,
+  React.HTMLAttributes<HTMLTableSectionElement>
+>(({ className, ...props }, ref) => (
+  <thead ref={ref} className={cn("[&_tr]:border-b", className)} {...props} />
+))
+TableHeader.displayName = "TableHeader"
 
-export function TableBody<Data>({
-  data,
-  columns,
-  onRowClick,
-}: TableBodyProps<Data>) {
-  return (
-    <tbody className="border-l border-r border-[#ddd]">
-      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-      {data.map((item: any, index) => (
-        <tr
-          key={index}
-          className="bg-white [&:not(:last-child)]:border-b border-[#ddd]"
-          onClick={() => onRowClick?.(item)}
-        >
-          {columns.map((column) => (
-            <td
-              key={column.key}
-              className="p-2 [&:not(:last-child)]:border-r border-[#ddd]"
-            >
-              {column.render ? column.render(item) : item[column.key]}
-            </td>
-          ))}
-        </tr>
-      ))}
-    </tbody>
-  );
-}
+const TableBody = React.forwardRef<
+  HTMLTableSectionElement,
+  React.HTMLAttributes<HTMLTableSectionElement>
+>(({ className, ...props }, ref) => (
+  <tbody
+    ref={ref}
+    className={cn("[&_tr:last-child]:border-0", className)}
+    {...props}
+  />
+))
+TableBody.displayName = "TableBody"
 
-interface TableActionProps {
-  onEdit?: () => void;
-  onDelete?: () => void;
-  canDelete?: boolean;
-  canEdit?: boolean;
-}
+const TableFooter = React.forwardRef<
+  HTMLTableSectionElement,
+  React.HTMLAttributes<HTMLTableSectionElement>
+>(({ className, ...props }, ref) => (
+  <tfoot
+    ref={ref}
+    className={cn(
+      "border-t bg-muted/50 font-medium [&>tr]:last:border-b-0",
+      className
+    )}
+    {...props}
+  />
+))
+TableFooter.displayName = "TableFooter"
 
-export function TableActions({
-  onEdit,
-  onDelete,
-  canDelete = true,
-  canEdit = true,
-}: TableActionProps) {
-  return (
-    <div className="flex items-center gap-4">
-      {canDelete && onDelete && (
-        <button
-          title="Delete"
-          onClick={(e) => {
-            e.stopPropagation();
-            onDelete();
-          }}
-        >
-          <img src={DeleteIcon} />
-        </button>
-      )}
+const TableRow = React.forwardRef<
+  HTMLTableRowElement,
+  React.HTMLAttributes<HTMLTableRowElement>
+>(({ className, ...props }, ref) => (
+  <tr
+    ref={ref}
+    className={cn(
+      "border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted",
+      className
+    )}
+    {...props}
+  />
+))
+TableRow.displayName = "TableRow"
 
-      {canEdit && onEdit && (
-        <button title="Edit" onClick={onEdit}>
-          <img src={EditIcon} />
-        </button>
-      )}
-    </div>
-  );
-}
+const TableHead = React.forwardRef<
+  HTMLTableCellElement,
+  React.ThHTMLAttributes<HTMLTableCellElement>
+>(({ className, ...props }, ref) => (
+  <th
+    ref={ref}
+    className={cn(
+      "h-12 px-4 text-left align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0",
+      className
+    )}
+    {...props}
+  />
+))
+TableHead.displayName = "TableHead"
 
-interface TableProps<Row> {
-  columns: {
-    key: string;
-    label: string;
-    render?: (_item: Row) => React.ReactNode;
-  }[];
-  data: Row[];
-  itemsPerPage: number;
-  isLoading?: boolean;
-  emptyMessage?: string;
-  showPagination?: boolean;
-}
+const TableCell = React.forwardRef<
+  HTMLTableCellElement,
+  React.TdHTMLAttributes<HTMLTableCellElement>
+>(({ className, ...props }, ref) => (
+  <td
+    ref={ref}
+    className={cn("p-4 align-middle [&:has([role=checkbox])]:pr-0", className)}
+    {...props}
+  />
+))
+TableCell.displayName = "TableCell"
 
-export function Table<Data>({
-  columns,
-  data,
-  itemsPerPage,
-  isLoading = false,
-  emptyMessage = "No data found",
-  showPagination = true,
-}: TableProps<Data>) {
-  const [currentPage, setCurrentPage] = useState(1);
-  const totalItems = data.length;
-  const totalPages = Math.ceil(totalItems / itemsPerPage);
+const TableCaption = React.forwardRef<
+  HTMLTableCaptionElement,
+  React.HTMLAttributes<HTMLTableCaptionElement>
+>(({ className, ...props }, ref) => (
+  <caption
+    ref={ref}
+    className={cn("mt-4 text-sm text-muted-foreground", className)}
+    {...props}
+  />
+))
+TableCaption.displayName = "TableCaption"
 
-  const startItem = (currentPage - 1) * itemsPerPage + 1;
-  const endItem = Math.min(currentPage * itemsPerPage, totalItems);
-
-  const currentData = data.slice(
-    (currentPage - 1) * itemsPerPage,
-    currentPage * itemsPerPage,
-  );
-
-  return (
-    <div>
-      <div className="overflow-x-auto">
-        <table className="w-full text-xs text-left text-[#333] border-b border-gray-200">
-          <TableHeader columns={columns} />
-
-          {isLoading ? (
-            <LoadingState columns={columns.length} />
-          ) : data.length === 0 ? (
-            <tbody>
-              <tr>
-                <td colSpan={columns.length}>
-                  <EmptyState message={emptyMessage} />
-                </td>
-              </tr>
-            </tbody>
-          ) : (
-            <TableBody data={currentData} columns={columns} />
-          )}
-        </table>
-      </div>
-
-      {showPagination && !isLoading && data.length > 0 && (
-        <div className="flex flex-col sm:flex-row items-center justify-between px-4 py-3 bg-white">
-          <ResultsInfo
-            startItem={startItem}
-            endItem={endItem}
-            totalItems={totalItems}
-          />
-          {totalPages > 1 && (
-            <Pagination
-              currentPage={currentPage}
-              totalPages={totalPages}
-              onPageChange={setCurrentPage}
-            />
-          )}
-        </div>
-      )}
-    </div>
-  );
+export {
+  Table,
+  TableHeader,
+  TableBody,
+  TableFooter,
+  TableHead,
+  TableRow,
+  TableCell,
+  TableCaption,
 }
