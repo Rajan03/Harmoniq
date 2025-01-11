@@ -1,0 +1,1757 @@
+{
+  "GetGlobalCodes": [
+    {
+      "GlobalCodeId": -999,
+      "CategoryId": 141,
+      "CodeName": "Other",
+      "Description": "Other",
+      "Active": "Y",
+      "CannotModifyNameOrDelete": "N",
+      "CreatedBy": "tom ",
+      "CreatedDate": "2013-08-08T22:02:37.880",
+      "ModifiedBy": "",
+      "ModifiedDate": "2013-08-08T22:02:37.880",
+      "RecordDeleted": "N",
+      "FriendlyName": "Other"
+    },
+    {
+      "GlobalCodeId": 1,
+      "CategoryId": 1,
+      "CodeName": "Female",
+      "Description": "Female",
+      "Active": "Y",
+      "CannotModifyNameOrDelete": "Y",
+      "CreatedBy": "BATCH LOAD",
+      "CreatedDate": "2009-02-27T13:05:26.310",
+      "ModifiedBy": "tom ",
+      "ModifiedDate": "2023-02-08T12:52:52.810",
+      "RecordDeleted": "N",
+      "FriendlyName": "Female"
+    },
+    {
+      "GlobalCodeId": 2,
+      "CategoryId": 1,
+      "CodeName": "Male",
+      "Description": "Male",
+      "Active": "Y",
+      "CannotModifyNameOrDelete": "Y",
+      "CreatedBy": "BATCH LOAD",
+      "CreatedDate": "2009-02-27T13:05:26.327",
+      "ModifiedBy": "BATCH LOAD",
+      "ModifiedDate": "2009-02-27T13:05:26.327",
+      "RecordDeleted": "N",
+      "FriendlyName": "Male"
+    },
+    {
+      "GlobalCodeId": 3,
+      "CategoryId": 26,
+      "CodeName": "AL",
+      "Description": "Alabama",
+      "Active": "Y",
+      "CannotModifyNameOrDelete": "N",
+      "CreatedBy": "BATCH LOAD",
+      "CreatedDate": "2009-02-27T13:05:26.357",
+      "ModifiedBy": "BATCH LOAD",
+      "ModifiedDate": "2009-02-27T13:05:26.357",
+      "RecordDeleted": "N",
+      "FriendlyName": "AL"
+    },
+    {
+      "GlobalCodeId": 4,
+      "CategoryId": 26,
+      "CodeName": "AK",
+      "Description": "Alaska",
+      "Active": "Y",
+      "CannotModifyNameOrDelete": "N",
+      "CreatedBy": "BATCH LOAD",
+      "CreatedDate": "2009-02-27T13:05:26.373",
+      "ModifiedBy": "BATCH LOAD",
+      "ModifiedDate": "2009-02-27T13:05:26.373",
+      "RecordDeleted": "N",
+      "FriendlyName": "AK"
+    },
+    {
+      "GlobalCodeId": 5,
+      "CategoryId": 26,
+      "CodeName": "AZ",
+      "Description": "Arizona",
+      "Active": "Y",
+      "CannotModifyNameOrDelete": "N",
+      "CreatedBy": "BATCH LOAD",
+      "CreatedDate": "2009-02-27T13:05:26.373",
+      "ModifiedBy": "BATCH LOAD",
+      "ModifiedDate": "2009-02-27T13:05:26.373",
+      "RecordDeleted": "N",
+      "FriendlyName": "AZ"
+    },
+    {
+      "GlobalCodeId": 6,
+      "CategoryId": 26,
+      "CodeName": "AR",
+      "Description": "Arkansas",
+      "Active": "Y",
+      "CannotModifyNameOrDelete": "N",
+      "CreatedBy": "BATCH LOAD",
+      "CreatedDate": "2009-02-27T13:05:26.390",
+      "ModifiedBy": "BATCH LOAD",
+      "ModifiedDate": "2009-02-27T13:05:26.390",
+      "RecordDeleted": "N",
+      "FriendlyName": "AR"
+    },
+    {
+      "id": "a8db",
+      "category": {
+        "categoryId": 134,
+        "category": "AccountNumber"
+      },
+      "code": "1",
+      "description": "Test",
+      "tomrexName": "Test",
+      "active": true,
+      "cannotModify": false
+    },
+    {
+      "category": {
+        "categoryId": 148,
+        "category": "AccommodationType"
+      },
+      "code": "12",
+      "description": "1234",
+      "tomrexName": "123",
+      "active": true,
+      "cannotModify": false,
+      "id": "9af1"
+    }
+  ],
+  "GetGlobalCodeCategories": [
+    {
+      "categoryId": 148,
+      "category": "AccommodationType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "c809"
+    },
+    {
+      "categoryId": 130,
+      "category": "AccountingPeriodStatus",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "96ed"
+    },
+    {
+      "categoryId": 133,
+      "category": "AccountingType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5ea4"
+    },
+    {
+      "categoryId": 134,
+      "category": "AccountNumber",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "b093"
+    },
+    {
+      "categoryId": 36,
+      "category": "AddressType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "4c9b"
+    },
+    {
+      "categoryId": 75,
+      "category": "AssessmentStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "ba10"
+    },
+    {
+      "categoryId": 74,
+      "category": "AssessmentType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "0754"
+    },
+    {
+      "categoryId": 111,
+      "category": "AssigneeType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "a352"
+    },
+    {
+      "categoryId": 80,
+      "category": "Attendance",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "34d9"
+    },
+    {
+      "categoryId": 153,
+      "category": "BadDebtType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "8a06"
+    },
+    {
+      "categoryId": 81,
+      "category": "BAResult",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "7361"
+    },
+    {
+      "categoryId": 49,
+      "category": "Bed",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "8aed"
+    },
+    {
+      "categoryId": 82,
+      "category": "Behavior",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "6e2c"
+    },
+    {
+      "categoryId": 117,
+      "category": "Billing",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "d67d"
+    },
+    {
+      "categoryId": 12,
+      "category": "Build",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "c2d5"
+    },
+    {
+      "categoryId": 24,
+      "category": "Building",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "85cb"
+    },
+    {
+      "categoryId": 197,
+      "category": "CaseStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "363a"
+    },
+    {
+      "categoryId": 194,
+      "category": "ChangeWorkflowCodeValue",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "2768"
+    },
+    {
+      "categoryId": 198,
+      "category": "ChargeType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3a28"
+    },
+    {
+      "categoryId": 144,
+      "category": "CheckFormat",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "d309"
+    },
+    {
+      "categoryId": 138,
+      "category": "ClientHeadcountStatus",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "27be"
+    },
+    {
+      "categoryId": 103,
+      "category": "ClientMovementStatus",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "220e"
+    },
+    {
+      "categoryId": 9,
+      "category": "ClientStatusType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "2897"
+    },
+    {
+      "categoryId": 47,
+      "category": "Color",
+      "allowAddDelete": "y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "6c96"
+    },
+    {
+      "categoryId": 16,
+      "category": "Complexion",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "e0f2"
+    },
+    {
+      "categoryId": 151,
+      "category": "ConfinementLocation",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "815f"
+    },
+    {
+      "categoryId": 54,
+      "category": "County",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "e4b4"
+    },
+    {
+      "categoryId": 55,
+      "category": "Court",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "6357"
+    },
+    {
+      "categoryId": 78,
+      "category": "CurriculumType ",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "0094"
+    },
+    {
+      "categoryId": 202,
+      "category": "DateCalculation",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "f11c"
+    },
+    {
+      "categoryId": 170,
+      "category": "DayOfWeek",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "d811"
+    },
+    {
+      "categoryId": 172,
+      "category": "DestinationType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "bcfb"
+    },
+    {
+      "categoryId": 113,
+      "category": "Diagnosis",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "1ea2"
+    },
+    {
+      "categoryId": 182,
+      "category": "DiagnosisSeverity",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "4b82"
+    },
+    {
+      "categoryId": 155,
+      "category": "DietaryNeeds",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3d3c"
+    },
+    {
+      "categoryId": 200,
+      "category": "DisplayDensity",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "74f2"
+    },
+    {
+      "categoryId": 58,
+      "category": "District",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "1b33"
+    },
+    {
+      "categoryId": 185,
+      "category": "DOCRepresentative",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "0645"
+    },
+    {
+      "categoryId": 73,
+      "category": "DocumentType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "f6f1"
+    },
+    {
+      "categoryId": 61,
+      "category": "Drug",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "b4c2"
+    },
+    {
+      "categoryId": 33,
+      "category": "EducationLevel",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "814c"
+    },
+    {
+      "categoryId": 34,
+      "category": "EducationStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "1db1"
+    },
+    {
+      "categoryId": 123,
+      "category": "EmailType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "868f"
+    },
+    {
+      "categoryId": 4,
+      "category": "EmploymentStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "63ba"
+    },
+    {
+      "categoryId": 157,
+      "category": "EquipmentStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "045a"
+    },
+    {
+      "categoryId": 156,
+      "category": "EquipmentType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "e1f4"
+    },
+    {
+      "categoryId": 150,
+      "category": "EvaluationRecommendations",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "0e1b"
+    },
+    {
+      "categoryId": 127,
+      "category": "EventType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "f51b"
+    },
+    {
+      "categoryId": 209,
+      "category": "ExternalAgency",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "c8f1"
+    },
+    {
+      "categoryId": 208,
+      "category": "ExternalContactType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "e258"
+    },
+    {
+      "categoryId": 62,
+      "category": "ExternalFacilities",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "7c7f"
+    },
+    {
+      "categoryId": 14,
+      "category": "EyeColor",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "8be7"
+    },
+    {
+      "categoryId": 51,
+      "category": "FailureToAppear",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5976"
+    },
+    {
+      "categoryId": 164,
+      "category": "FederalCDC",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "204b"
+    },
+    {
+      "categoryId": 162,
+      "category": "FederalComponent",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "8df8"
+    },
+    {
+      "categoryId": 163,
+      "category": "FederalOffenderType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "4e74"
+    },
+    {
+      "categoryId": 132,
+      "category": "FeeType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "d4e2"
+    },
+    {
+      "categoryId": 122,
+      "category": "Flag",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "549f"
+    },
+    {
+      "categoryId": 30,
+      "category": "GovernanceAgency",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "fe50"
+    },
+    {
+      "categoryId": 178,
+      "category": "GrievanceCategory",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "ceaa"
+    },
+    {
+      "categoryId": 179,
+      "category": "GrievanceFormality",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "1363"
+    },
+    {
+      "categoryId": 177,
+      "category": "GrievanceStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "a937"
+    },
+    {
+      "categoryId": 79,
+      "category": "GroupRegistrationStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "8b80"
+    },
+    {
+      "categoryId": 13,
+      "category": "HairColor",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "6aa6"
+    },
+    {
+      "categoryId": 15,
+      "category": "Handed",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "53ce"
+    },
+    {
+      "categoryId": 137,
+      "category": "HeadcountStatus",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5159"
+    },
+    {
+      "categoryId": 154,
+      "category": "HeadcountType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "1b0a"
+    },
+    {
+      "categoryId": 212,
+      "category": "HolidayHandling",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "6dac"
+    },
+    {
+      "categoryId": 215,
+      "category": "IncentiveType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "9caf"
+    },
+    {
+      "categoryId": 99,
+      "category": "IncidentReportStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "2772"
+    },
+    {
+      "categoryId": 145,
+      "category": "IncomeSource",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "4295"
+    },
+    {
+      "categoryId": 192,
+      "category": "IndigenceType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "539b"
+    },
+    {
+      "categoryId": 187,
+      "category": "InsuranceProvider",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "9359"
+    },
+    {
+      "categoryId": 186,
+      "category": "InsuranceStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "b0bc"
+    },
+    {
+      "categoryId": 180,
+      "category": "InvestigationType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "301d"
+    },
+    {
+      "categoryId": 128,
+      "category": "IRFormality",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "97cc"
+    },
+    {
+      "categoryId": 8,
+      "category": "IRSeverity",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "55f9"
+    },
+    {
+      "categoryId": 50,
+      "category": "Jurisdiction",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5552"
+    },
+    {
+      "categoryId": 167,
+      "category": "KioskLeaveRequestStatus",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "1795"
+    },
+    {
+      "categoryId": 168,
+      "category": "KioskTaskTypes",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "310d"
+    },
+    {
+      "categoryId": 86,
+      "category": "LabAccountNumber",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "dc02"
+    },
+    {
+      "categoryId": 93,
+      "category": "LeaveType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "d7a9"
+    },
+    {
+      "categoryId": 217,
+      "category": "LocationReason",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "0074"
+    },
+    {
+      "categoryId": 105,
+      "category": "LogType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "bd82"
+    },
+    {
+      "categoryId": 46,
+      "category": "Make",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "cf53"
+    },
+    {
+      "categoryId": 29,
+      "category": "ManagingLocation",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "317b"
+    },
+    {
+      "categoryId": 3,
+      "category": "MaritalStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "98f1"
+    },
+    {
+      "categoryId": 216,
+      "category": "MealType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "16f2"
+    },
+    {
+      "categoryId": 95,
+      "category": "MedicationClass",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3cb5"
+    },
+    {
+      "categoryId": 98,
+      "category": "MedicationType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5690"
+    },
+    {
+      "categoryId": 152,
+      "category": "MeetingLocation",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "2f80"
+    },
+    {
+      "categoryId": 161,
+      "category": "MeetingType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "d7fd"
+    },
+    {
+      "categoryId": 181,
+      "category": "MetricType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5f15"
+    },
+    {
+      "categoryId": 104,
+      "category": "MovementType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "fec8"
+    },
+    {
+      "categoryId": 76,
+      "category": "NoteType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "26c5"
+    },
+    {
+      "categoryId": 159,
+      "category": "NotificationMethod",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "0866"
+    },
+    {
+      "categoryId": 149,
+      "category": "OffenseCategory",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "123f"
+    },
+    {
+      "categoryId": 175,
+      "category": "OffenseType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "0d74"
+    },
+    {
+      "categoryId": 126,
+      "category": "OTCMedications",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "6a84"
+    },
+    {
+      "categoryId": 141,
+      "category": "OtherCategory",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "96d7"
+    },
+    {
+      "categoryId": 120,
+      "category": "ParoleEligibility",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "99d5"
+    },
+    {
+      "categoryId": 142,
+      "category": "Payee",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "8042"
+    },
+    {
+      "categoryId": 129,
+      "category": "PaymentTypeGroup",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "71b5"
+    },
+    {
+      "categoryId": 140,
+      "category": "PayPeriod",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "98a2"
+    },
+    {
+      "categoryId": 35,
+      "category": "PhoneType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "0519"
+    },
+    {
+      "categoryId": 45,
+      "category": "PhotoType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "ba79"
+    },
+    {
+      "categoryId": 121,
+      "category": "PlacementSiteType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "e692"
+    },
+    {
+      "categoryId": 166,
+      "category": "PreaStatusType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "9fc5"
+    },
+    {
+      "categoryId": 27,
+      "category": "Prefix",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "d289"
+    },
+    {
+      "categoryId": 106,
+      "category": "Priority",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "b9cd"
+    },
+    {
+      "categoryId": 115,
+      "category": "ProblemCategory",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "9ad1"
+    },
+    {
+      "categoryId": 89,
+      "category": "ProcedureStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3e71"
+    },
+    {
+      "categoryId": 210,
+      "category": "ProcedureTestLocation",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "2a2c"
+    },
+    {
+      "categoryId": 21,
+      "category": "ProgramStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "6ec7"
+    },
+    {
+      "categoryId": 11,
+      "category": "ProgramType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "c519"
+    },
+    {
+      "categoryId": 124,
+      "category": "Progress",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "0fcc"
+    },
+    {
+      "categoryId": 64,
+      "category": "PsychologicalConditions",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "76d2"
+    },
+    {
+      "categoryId": 184,
+      "category": "QuickFunctions",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "05b4"
+    },
+    {
+      "categoryId": 2,
+      "category": "Race",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "ff89"
+    },
+    {
+      "categoryId": 125,
+      "category": "RecurringWorkFlowSchedule",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "6413"
+    },
+    {
+      "categoryId": 22,
+      "category": "ReferralCode",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "bd04"
+    },
+    {
+      "categoryId": 169,
+      "category": "ReferralReason",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "9c80"
+    },
+    {
+      "categoryId": 23,
+      "category": "ReferralReportingGroup",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3a0e"
+    },
+    {
+      "categoryId": 37,
+      "category": "RelationShip",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "e17d"
+    },
+    {
+      "categoryId": 5,
+      "category": "ReleaseStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "6588"
+    },
+    {
+      "categoryId": 174,
+      "category": "ReleaseType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3c01"
+    },
+    {
+      "categoryId": 108,
+      "category": "ReportCategory",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "a16c"
+    },
+    {
+      "categoryId": 112,
+      "category": "ReportFormat",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "f512"
+    },
+    {
+      "categoryId": 160,
+      "category": "ReportPeriod",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5a40"
+    },
+    {
+      "categoryId": 107,
+      "category": "ReportType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "73f6"
+    },
+    {
+      "categoryId": 213,
+      "category": "ResidenceSearchProcedureHandling",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "477d"
+    },
+    {
+      "categoryId": 143,
+      "category": "ResidentFinancialAccountType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "2bf3"
+    },
+    {
+      "categoryId": 176,
+      "category": "SanctionType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "ee2e"
+    },
+    {
+      "categoryId": 92,
+      "category": "ScheduleType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "dae5"
+    },
+    {
+      "categoryId": 214,
+      "category": "ScreeningApplicationType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "8213"
+    },
+    {
+      "categoryId": 67,
+      "category": "ScreeningApprovalConditions",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "ef8c"
+    },
+    {
+      "categoryId": 66,
+      "category": "ScreeningDenialReason",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3d62"
+    },
+    {
+      "categoryId": 118,
+      "category": "ScreeningMedications",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "4634"
+    },
+    {
+      "categoryId": 195,
+      "category": "ScreeningSecurityLevel",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "939f"
+    },
+    {
+      "categoryId": 196,
+      "category": "ScreeningSecurityLevelReason",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "a686"
+    },
+    {
+      "categoryId": 63,
+      "category": "ScreeningStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "e5fb"
+    },
+    {
+      "categoryId": 25,
+      "category": "SecurityProcedureType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "cede"
+    },
+    {
+      "categoryId": 88,
+      "category": "SecuritySchedulingPeriod",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "84fd"
+    },
+    {
+      "categoryId": 85,
+      "category": "SecuritySchedulingType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "35a4"
+    },
+    {
+      "categoryId": 20,
+      "category": "Sentence",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3087"
+    },
+    {
+      "categoryId": 206,
+      "category": "ServiceActionStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "f71a"
+    },
+    {
+      "categoryId": 201,
+      "category": "ServiceBilling",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3c90"
+    },
+    {
+      "categoryId": 203,
+      "category": "ServiceCategory",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "1e97"
+    },
+    {
+      "categoryId": 211,
+      "category": "ServiceClass",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "ba3b"
+    },
+    {
+      "categoryId": 205,
+      "category": "ServiceFormat",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "c25e"
+    },
+    {
+      "categoryId": 204,
+      "category": "ServiceStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "8fde"
+    },
+    {
+      "categoryId": 183,
+      "category": "ServiceType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "77ae"
+    },
+    {
+      "categoryId": 1,
+      "category": "Sex",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "db3e"
+    },
+    {
+      "categoryId": 60,
+      "category": "Skill",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "9d3a"
+    },
+    {
+      "categoryId": 26,
+      "category": "State",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "4577"
+    },
+    {
+      "categoryId": 72,
+      "category": "StatusChangeReason",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "ffc7"
+    },
+    {
+      "categoryId": 116,
+      "category": "SuccessFlag",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "c046"
+    },
+    {
+      "categoryId": 28,
+      "category": "Suffix",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "532c"
+    },
+    {
+      "categoryId": 207,
+      "category": "TaskLinkType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "194c"
+    },
+    {
+      "categoryId": 109,
+      "category": "TaskStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "3c7d"
+    },
+    {
+      "categoryId": 110,
+      "category": "TaskType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "a6c2"
+    },
+    {
+      "categoryId": 69,
+      "category": "TransactionType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5b5a"
+    },
+    {
+      "categoryId": 94,
+      "category": "TransportationMode",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "Y",
+      "id": "a254"
+    },
+    {
+      "categoryId": 119,
+      "category": "TreatmentFacilities",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "4f79"
+    },
+    {
+      "categoryId": 189,
+      "category": "TreatmentPlanCloseReasons",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "05d5"
+    },
+    {
+      "categoryId": 188,
+      "category": "TreatmentPlanDimensions",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "54ef"
+    },
+    {
+      "categoryId": 191,
+      "category": "TreatmentPlanLevelsofCare",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "7060"
+    },
+    {
+      "categoryId": 193,
+      "category": "TreatmentPlanRiskRating",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "e839"
+    },
+    {
+      "categoryId": 43,
+      "category": "UDFFIELDDATATYPE",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "f884"
+    },
+    {
+      "categoryId": 44,
+      "category": "UDFSCREENTYPE",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "f53c"
+    },
+    {
+      "categoryId": 190,
+      "category": "UserTheme",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5291"
+    },
+    {
+      "categoryId": 199,
+      "category": "VehicleType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "9cfe"
+    },
+    {
+      "categoryId": 158,
+      "category": "ViolationType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "b620"
+    },
+    {
+      "categoryId": 135,
+      "category": "VisitorCategory",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "4625"
+    },
+    {
+      "categoryId": 131,
+      "category": "VisitType",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "596e"
+    },
+    {
+      "categoryId": 171,
+      "category": "WaitListStatus",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "b277"
+    },
+    {
+      "categoryId": 165,
+      "category": "WalkawayStatus",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "db24"
+    },
+    {
+      "categoryId": 136,
+      "category": "WordTemplateType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "4e45"
+    },
+    {
+      "categoryId": 17,
+      "category": "WorkStatus",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "e726"
+    },
+    {
+      "categoryId": 83,
+      "category": "WorkType",
+      "allowAddDelete": "Y",
+      "allowCodeNameEdit": "Y",
+      "allowSortOrderEdit": "Y",
+      "kiosk_UsedInKiosk": "N",
+      "id": "5eec"
+    },
+    {
+      "categoryId": 173,
+      "category": "YesNo",
+      "allowAddDelete": "N",
+      "allowCodeNameEdit": "N",
+      "allowSortOrderEdit": "N",
+      "kiosk_UsedInKiosk": "N",
+      "id": "a9d4"
+    }
+  ]
+}
