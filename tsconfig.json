@@ -20,10 +20,8 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@/ui/*": ["./src/components/ui/*"],
-      "@/administration/*": ["./src/modules/administration/*"],
-      "@/auth/*": ["./src/modules/auth/*"]
+      "@/*": ["./src/*"],
+      "@/ui/*": ["./src/components/ui/*"]
     },
     /* Linting */
     "strict": true,

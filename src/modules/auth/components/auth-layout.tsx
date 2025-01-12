@@ -1,5 +1,12 @@
-import { Outlet } from "react-router-dom";
+import { AuthProvider } from "../hooks/auth";
+import React from "react";
 
-export function AuthLayout() {
-  return <Outlet />;
+export function AuthLayout({ children }: React.PropsWithChildren) {
+  return (
+    <AuthProvider>
+      <div className={"flex justify-center items-center h-screen"}>
+        {children}
+      </div>
+    </AuthProvider>
+  );
 }
