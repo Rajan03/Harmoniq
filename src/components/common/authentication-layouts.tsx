@@ -3,12 +3,7 @@ import { useAuth } from "@/provider";
 
 export function AuthenticationLayouts() {
   const { authenticated: isAuthenticated } = useAuth();
-  return (
-    <>
-      Authenticated Layout
-      {isAuthenticated ? <Outlet /> : <Navigate to="/auth" replace />}
-    </>
-  );
+  return isAuthenticated ? <Outlet /> : <Navigate to="/auth" replace />;
 }
 
 export function UnauthenticatedLayout() {

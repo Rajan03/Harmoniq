@@ -1,5 +1,4 @@
 import React, { createContext, useCallback, useEffect } from "react";
-import { useWindowFocusVisible } from "@/hooks/use-window-focus-visible";
 import { authRepository } from "@/modules/auth/repository.ts";
 import { SlidingLoader } from "@/components/common";
 
@@ -21,9 +20,8 @@ export function useAuth() {
 
 type AuthProviderProps = React.PropsWithChildren;
 export const AuthProvider = ({ children }: AuthProviderProps) => {
-  const [loading, setLoading] = React.useState(false);
+  const [loading, setLoading] = React.useState(true);
   const [authenticated, setAuthenticated] = React.useState(false);
-  const isFocused = useWindowFocusVisible();
 
   const setAuth = useCallback((v: boolean) => setAuthenticated(v), []);
   useEffect(() => {
@@ -36,7 +34,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       .finally(() => {
         setLoading(false);
       });
-  }, [isFocused]);
+  }, []);
 
   // TODO: Fix Loading UI
   return (
@@ -44,7 +42,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       value={{ pending: loading, authenticated, setAuthenticated: setAuth }}
     >
       {loading && <SlidingLoader loading={loading} />}
-      {children}
+      {!loading && children}
     </AuthContext.Provider>
   );
 };

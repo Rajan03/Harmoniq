@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui";
 import { authRepository } from "../repository";
 import { useTransition } from "react";
+import { useAuth } from "@/provider";
 
 export function ContinueAction() {
   return (
@@ -13,10 +14,12 @@ export function ContinueAction() {
 
 export function LogoutAction() {
   const [pending, startTransition] = useTransition();
+  const { setAuthenticated } = useAuth();
 
   const logoutHandler = () =>
     startTransition(async () => {
       await authRepository.logout();
+      setAuthenticated(false);
     });
 
   return (
