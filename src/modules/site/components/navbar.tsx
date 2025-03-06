@@ -25,9 +25,6 @@ export function Navbar() {
         <Link to={"/support"} className={"px-4"}>
           Support
         </Link>
-        <Link to={"/administration/network"} className={"px-4"}>
-          Network
-        </Link>
         {authenticated ? <LogoutAction /> : <ContinueAction />}
       </div>
     </div>
