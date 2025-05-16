@@ -1,6 +1,6 @@
-import React from "react";
 import { Progress } from "@/components/ui";
 import { cn } from "@/lib/utils";
+import React from "react";
 
 interface SlidingLoaderProps {
   loading: boolean;
@@ -36,7 +36,6 @@ export const SlidingLoader: React.FC<SlidingLoaderProps> = ({
         loading ? "opacity-100" : "opacity-0",
         className,
       )}
-      role="progressbar"
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={progress}

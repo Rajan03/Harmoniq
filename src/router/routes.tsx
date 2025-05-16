@@ -5,7 +5,7 @@ import {
   UnauthenticatedLayout,
 } from "@/components/common";
 
-// Modules routes
+// Modules routes TODO: Lazy load modules
 import { siteRoutes } from "@/modules/site";
 import { authRoutes } from "@/modules/auth";
 import { administrationRoutes } from "@/modules/administration";

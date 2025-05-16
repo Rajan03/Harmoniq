@@ -8,10 +8,10 @@ import {
   FormMessage,
   Input,
 } from "@/components/ui";
-import { useAuth } from "../../hooks/auth";
+import { useSignIn } from "../../hooks/auth";
 
 export function AuthForm() {
-  const { form, login } = useAuth();
+  const { form, login } = useSignIn();
   return (
     <Form {...form}>
       <form onSubmit={login} className={"space-y-4"}>

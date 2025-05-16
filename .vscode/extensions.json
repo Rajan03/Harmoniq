@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "esbenp.prettier-vscode",
+    "SonarSource.sonarlint-vscode",
+    "firsttris.vscode-jest-runner",
+    "xabikos.javascriptsnippets",
+    "pranaygp.vscode-css-peek"
+  ]
+}

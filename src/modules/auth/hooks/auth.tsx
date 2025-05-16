@@ -1,16 +1,16 @@
+import { zodResolver } from "@hookform/resolvers/zod";
 import React from "react";
 import { useForm, UseFormReturn } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
 
-import { AuthFormFields } from "@/modules/auth/utils/types";
-import { authSchema } from "@/modules/auth/utils/schema";
-import { authRepository } from "@/modules/auth/repository";
 import { toast } from "@/hooks/use-toast";
+import { authRepository } from "@/modules/auth/repository";
+import { authSchema } from "@/modules/auth/utils/schema";
+import { AuthFormFields } from "@/modules/auth/utils/types";
 
 export type LoginContextType = {
   form: UseFormReturn<AuthFormFields>;
-  login: () => void;
-  logout: () => void;
+  login: () => Promise<void>;
+  logout: () => Promise<void>;
 };
 
 // Authentication context
@@ -19,7 +19,7 @@ const AuthContext = React.createContext<LoginContextType | undefined>(
 );
 
 // Authentication hook
-export function useAuth() {
+export function useSignIn() {
   const context = React.useContext(AuthContext);
   if (!context) {
     throw new Error("useLogin must be used within a LoginProvider");
